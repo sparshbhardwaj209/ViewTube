@@ -4,9 +4,13 @@ import VideoContainer from "./VideoContainer";
 
 const MainContainer = () => {
   return (
-    <div className="row-span-2 border-2 border-green-500">
-      <ButtonList />
-      <VideoContainer />
+    <div className="flex flex-col ">
+      <div className="hidden lg:block">
+        <ButtonList />
+      </div>
+      <div className="">
+        <VideoContainer />
+      </div>
     </div>
   );
 };

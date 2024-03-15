@@ -30,7 +30,7 @@ const Sidebar = () => {
 
   if (!isMenuOpen) return null;
   return (
-    <div className="p-3 border-2 border-red-700 shadow-lg">
+    <div className=" p-3 shadow-lg">
       <div className="font-medium space-y-1 border-b-2">
         <div className="p-2 flex justify-start space-x-3 items-center hover:bg-slate-200 hover:rounded-lg active">
           <span>
